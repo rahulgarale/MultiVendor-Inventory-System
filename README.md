@@ -20,14 +20,14 @@ CREATE DATABASE inventory_db;
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate        # Windows
+.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ### 3. Configure environment
 
 ```bash
-copy .env.sample .env      # Windows
+copy .env.sample .env
 ```
 
 Update `.env` with your PostgreSQL username and password.
